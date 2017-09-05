@@ -1,4 +1,4 @@
-//Disable copy save, else paste
+//Disable copy, save
 document.onkeydown = function(e) {
 event = (event || window.event);
     if (event.keyCode == 123) {
@@ -9,7 +9,6 @@ event = (event || window.event);
          e.keyCode === 83 ||
          e.keyCode === 87 ||
          e.keyCode === 117)) {
-        /* alert('not allowed'); */
         return false;
     } else {
         return true;
